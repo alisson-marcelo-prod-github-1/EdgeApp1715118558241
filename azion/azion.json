@@ -1,0 +1,58 @@
+{
+  "name": "EdgeApp1715118558241",
+  "bucket": "EdgeApp1715118558241",
+  "preset": "gatsby",
+  "mode": "deliver",
+  "env": "production",
+  "prefix": "20240507215131",
+  "not-first-run": true,
+  "function": {
+    "id": 22517,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "./azion/args.json",
+    "instance-id": 22073,
+    "instance-name": "__DEFAULT__"
+  },
+  "application": {
+    "id": 1715112570,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1715111465,
+    "name": "__DEFAULT__"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 131119,
+      "origin-key": "7c90a483-9323-42ee-870f-56f39134492d",
+      "name": "EdgeApp1715118558241_single"
+    },
+    {
+      "origin-id": 131120,
+      "origin-key": "4928b999-9a26-4807-b9ff-9e2f31093366",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 247391,
+        "name": "Main_Rule"
+      },
+      {
+        "id": 247392,
+        "name": "Index_Rewrite_1"
+      },
+      {
+        "id": 247393,
+        "name": "Index_Rewrite_2"
+      }
+    ]
+  },
+  "cache-settings": null
+}
